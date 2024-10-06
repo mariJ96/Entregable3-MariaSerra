@@ -1,0 +1,10 @@
+body {
+    background-color: #fdc1ba;
+}
+
+.error {
+    color: red;
+    background-color: #fdd;
+    padding: 10px;
+    margin: 10px 0;
+}

@@ -1,0 +1,16 @@
+[
+    {
+        "genero": "mujer",
+        "peso": 60,
+        "altura": 165,
+        "edad": 30,
+        "calorias": 2000
+    },
+    {
+        "genero": "hombre",
+        "peso": 75,
+        "altura": 180,
+        "edad": 35,
+        "calorias": 2500
+    }
+]

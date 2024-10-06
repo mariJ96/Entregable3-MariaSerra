@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/estilo.css">
+    <!-- SweetAlert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- JavaScript -->
+    <script defer src="/js/main.js"></script>
+    <title>Calculadora de Calorías</title>
+</head>
+<body>
+    <h1>Calculadora de Calorías Diarias</h1>
+    <div>
+        <label for="genero">Seleccione su género:</label>
+        <select id="genero">
+            <option value="1">Mujer</option>
+            <option value="2">Hombre</option>
+        </select>
+        <button id="generoBtn">Confirmar</button>
+    </div>
+    
+    <div id="pesoDiv" style="display:none;">
+        <label for="peso">Ingrese su peso en kg:</label>
+        <input type="number" id="peso">
+        <button id="pesoBtn">Confirmar</button>
+    </div>
+    
+    <div id="alturaDiv" style="display:none;">
+        <label for="altura">Ingrese su altura en cm:</label>
+        <input type="number" id="altura">
+        <button id="alturaBtn">Confirmar</button>
+    </div>
+
+    <div id="edadDiv" style="display:none;">
+        <label for="edad">Ingrese su edad:</label>
+        <input type="number" id="edad">
+        <button id="edadBtn">Confirmar</button>
+    </div>
+
+    <div id="actividadDiv" style="display:none;">
+        <label for="actividad">Seleccione su nivel de actividad física:</label>
+        <select id="actividad">
+            <option value="1">Sedentario</option>
+            <option value="2">Ligera actividad</option>
+            <option value="3">Actividad moderada</option>
+            <option value="4">Actividad intensa</option>
+        </select>
+        <button id="actividadBtn">Calcular</button>
+    </div>
+
+    <h2 id="resultadoCalorias"></h2>
+    <div>
+        <img src="/imagenes/gato1.png" alt="gatito">
+    </div>
+</body>
+</html>
